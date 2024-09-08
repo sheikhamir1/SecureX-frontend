@@ -1,0 +1,67 @@
+/* Profile.css */
+
+.profile-card {
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.profile-card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.profile-details {
+  margin-top: 20px;
+}
+
+.profile-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.profile-item:last-child {
+  border-bottom: none;
+}
+
+.profile-label {
+  font-weight: bold;
+  color: #333;
+}
+
+.profile-value {
+  color: #555;
+}
+
+.card-header {
+  border-bottom: none;
+}
+
+.card-header h4 {
+  margin: 0;
+}
+
+.modal-header {
+  background-color: #ff9800; /* Match navbar color */
+  color: white;
+}
+
+.modal-header .close {
+  color: white;
+}
+
+.modal-body {
+  padding: 20px;
+}
+
+.btn-warning {
+  background-color: #ff9800; /* Match navbar color */
+  border-color: #ff9800;
+}
+
+.btn-warning:hover {
+  background-color: #e68900; /* Slightly darker shade for hover effect */
+  border-color: #e68900;
+}

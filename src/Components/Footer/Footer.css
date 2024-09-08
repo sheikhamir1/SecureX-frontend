@@ -1,0 +1,95 @@
+/* Footer.css */
+
+footer {
+  background: #333333; /* Dark background to match mobile menu */
+  color: #ffffff; /* White text for contrast */
+  padding: 40px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 1200px;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.footer-left,
+.footer-middle,
+.footer-right {
+  flex: 1;
+  margin: 0 20px;
+}
+
+.footer-logo {
+  font-size: 32px;
+  color: #ff9800; /* Orange to match the navbar */
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.footer-left p {
+  margin: 0;
+}
+
+.footer-middle h4,
+.footer-right h4 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.footer-middle ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-middle ul li {
+  margin: 10px 0;
+}
+
+.footer-middle ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 7px 13px;
+  border-radius: 3px;
+  display: inline-block;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.footer-middle ul li a:hover {
+  background-color: #ff9800; /* Matching the navbar color */
+  color: #ffffff; /* White text on hover */
+}
+
+.footer-right a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 3px;
+  padding: 7px 13px;
+  display: inline-block;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.footer-right a:hover {
+  background-color: #ff9800; /* Matching the navbar color */
+  color: #ffffff; /* White text on hover */
+}
+
+.footer-right .social-icons {
+  margin-top: 10px;
+}
+
+.footer-right .social-icon {
+  display: inline-block;
+  margin-right: 15px;
+  color: #ffffff;
+  transition: color 0.3s;
+}
+
+.footer-right .social-icon:hover {
+  background-color: #ff9800; /* Matching the navbar color */
+}
